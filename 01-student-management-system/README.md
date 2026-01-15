@@ -41,12 +41,20 @@ This project helps beginners understand how real-world management systems work u
 
 ## ▶️ How to Run the Project
 
+student-management-system/
+│
+├── student_management.py
+└── README.md
+
 ### 1️⃣ Prerequisites
 Make sure Python 3 is installed:
 ```bash
-
 python --version
+
+2️⃣ Run the Program
 python student_management.py
+
+🧪 Sample Output
 Enter your name: Rohit
 Enter your roll number: 101
 Enter your marks: 85
