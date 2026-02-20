@@ -25,7 +25,7 @@ while True:
 			
 	else:
 		print("Please valid number.")
-
+		break
 
 	print(f"Computer choose: {choose}")
 
@@ -33,5 +33,6 @@ while True:
 	if again.lower() != 'y':
 		break
     	
+
 
 
