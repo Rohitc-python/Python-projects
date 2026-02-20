@@ -16,8 +16,15 @@ while True:
 		):
 		print("👑Computer Winner")
 	
+	elif(
+		(user==0 and choose==2) or 
+		(user==1 and choose==0) or 
+		(user==2 and choose==1)
+		):
+		print("👑User winner")
+			
 	else:
-		print("👑You Winner")
+		print("Please valid number.")
 
 
 	print(f"Computer choose: {choose}")
@@ -26,4 +33,5 @@ while True:
 	if again.lower() != 'y':
 		break
     	
+
 
